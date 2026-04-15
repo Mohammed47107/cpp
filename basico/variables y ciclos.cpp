@@ -10,13 +10,15 @@ void imprimir_un_for(){
             break;
         }
     }
+    cout << "." << endl;
 }
+
 
 int main (){
     cout << "hola" << endl;
     cout << "que empiece el infierno ktm" << endl;
     cout << "Aca vemos como un for imprime cada iteracion el dato"<< endl;
-    cout << "y usando un while se embellece la salida con comas" << endl;
+    cout << "y usando un while se embellece la salida con comas y punto final" << endl;
     imprimir_un_for();
     return 0;
 }
