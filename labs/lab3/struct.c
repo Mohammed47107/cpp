@@ -23,7 +23,7 @@ int main(){
     }
 
     for (int i = 0; i < cantidadProductos; i++) {
-        free(productos[i].nombre); // Liberamos cada nombre reservado individualmente
+        free(productos[i].nombre);
     }
     free(productos);
 
